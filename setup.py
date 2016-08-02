@@ -12,5 +12,8 @@ setup(
     install_requires=[
         'raccoon_notifier',
     ],
+    setup_requires=[
+        'raccoon_notifier',
+    ],
     dependency_links=['https://github.com/devraccoon/raccoon_notifier/tarball/master#egg=raccoon_notifier'],
     )
